@@ -9,7 +9,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -77,3 +77,75 @@ const courses = [
         completed: false
     }
 ]
+
+const allButton = document.querySelector("#all");
+const cseButton = document.querySelector("#cse");
+const wddButton = document.querySelector("#wdd");
+
+allButton.addEventListener("click", () => {
+    displayCourses(courses);
+    allButton.className = "selected";
+    cseButton.className = "not-selected";
+    wddButton.className = "not-selected";
+})
+
+cseButton.addEventListener("click", () => {
+    const filteredCourses = courses.filter(function(course) {
+        return course.subject == "CSE";
+    })
+    cseButton.className = "selected";
+    allButton.className = "not-selected";
+    wddButton.className = "not-selected";
+    displayCourses(filteredCourses);
+})
+
+wddButton.addEventListener("click", () => {
+    const filteredCourses = courses.filter(function(course) {
+        return course.subject == "WDD";
+    })
+    wddButton.className = "selected";
+    allButton.className = "not-selected";
+    cseButton.className = "not-selected";
+    displayCourses(filteredCourses);
+})
+
+displayCourses(courses);
+function displayCourses(courseList) {
+    
+    const cardContainer = document.querySelector("#course-cards");
+    cardContainer.innerHTML = "";
+
+    courseList.forEach((course) => {
+        const courseCard = document.createElement("p");
+        courseCard.textContent = `${course.subject} ${course.number}`;
+        
+        if (course.completed) {
+            courseCard.className = "course-complete";
+        }
+        else {
+            courseCard.className = "course-incomplete";
+        }
+
+        cardContainer.appendChild(courseCard);
+    })
+}
+
+const requiredCredits = document.querySelector("#total-credits");
+requiredCredits.innerHTML = `Required: ${getTotalCredits()}`;
+
+const completedCredits = document.querySelector("#total-completed");
+completedCredits.innerHTML = `Completed: ${getCompletedCredits()}`;
+
+function getTotalCredits() {
+    return courses.reduce((total, creditValue) => {
+        return total += creditValue.credits;
+    }, 0)
+}
+
+function getCompletedCredits() {
+    const completedCourses = courses.filter(course => course.completed);
+
+    return completedCourses.reduce((total, creditValue) => {
+        return total += creditValue.credits;
+    }, 0)
+}
