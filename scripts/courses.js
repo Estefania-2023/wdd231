@@ -78,6 +78,13 @@ const courses = [
     }
 ]
 
+let courseObjArray = 
+courses.map((item)=> {
+    return [item["subject"], item["number"], item];
+});
+ 
+console.log("courseObjArray", courseObjArray);
+
 const allButton = document.querySelector("#all");
 const cseButton = document.querySelector("#cse");
 const wddButton = document.querySelector("#wdd");
