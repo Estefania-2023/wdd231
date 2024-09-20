@@ -80,7 +80,7 @@ const courses = [
 
 let courseObjArray = 
 courses.map((item)=> {
-    return [item["subject"], item["number"], item];
+    return [item["title"], item];
 });
  
 console.log("courseObjArray", courseObjArray);
