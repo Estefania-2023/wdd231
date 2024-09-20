@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono:wght@100&display=swap');
 :root {
-  --primary-color: #6C0087;
-  --secondary-color: #D750F5;
+  --primary-color: #370d53;
+  --secondary-color: rgb(255, 92, 247);
   --background-color: white;
-  --text-color:  #F7E141;
+  --text-color:  hsl(53, 100%, 65%);
   ;
-  --text-color-dark: #0b2494c9;
+  --text-color-dark: #000153b6;
   --heading-font: Agbalumo;
   --paragraph-font: Roboto, monospace, sans-serif;
 }
@@ -119,7 +119,7 @@ main {
   width: 100%;
   height: auto;
   max-width: 480px;
-  border: ridge var(--primary-color);
+  border: ridge var(--text-color-dark);
   margin-bottom: 10px;
 }
 
