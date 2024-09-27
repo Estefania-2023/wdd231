@@ -1,0 +1,94 @@
+{
+    "companies": [
+      {
+        "name": "Pil Tarija",
+        "address": "Highway to Bermejo, Km 2, Airport Zone",
+        "phonenumber": "(591) 72965513",
+        "websiteurl": "https://piltarija.com/",
+        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logopil.webp",
+        "membershiplevel": 2,
+        "information": "dairy industries"
+      },
+      {
+        "name": "ALVITEM",
+        "address": "Av. La Paz # 1766, corner Santa Rosa",
+        "phonenumber": "(591) 72974104",
+        "websiteurl": "https://alvitem.wordpress.com/",
+        "image": "https://www.boliviaentusmanos.com/amarillas/blogos/alvitem-logo.jpg",
+        "membershiplevel": 1,
+        "information": "Work with aluminum and glass"
+      },
+      {
+        "name": "Kohlberg",
+        "address": "Av. Jorge Paz Galarza, San Jorge 1 Zone ",
+        "phonenumber": "(591) 4-6636366",
+        "websiteurl": "https://www.kohlberg.com.bo/",
+        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logokohlberg.webp",
+        "membershiplevel": 3,
+        "information": "Wine"
+      },
+      {
+        "name": "Curtiembre San Lorenzo",
+        "address": "Street Madrid between Colon and Suipacha",
+        "phonenumber": "(591) 72944301",
+        "websiteurl": "https://curtiembresanlorenzo.com/",
+        "image": "https://img.yumpu.com/58470295/1/500x640/catalogo-curtiembre-san-lorenzo-2017-print-web.jpg",
+        "membershiplevel": 1,
+        "information": "leather industries"
+      },
+      {
+        "name": "Bolivian Timberland",
+        "address": "Av. Circunvalación #null, between Av. La Paz and Av. Tentahuazu",
+        "phonenumber": "(591) 71721242",
+        "websiteurl": "https://www.construex.com.bo/",
+        "image": "https://www.boliviaentusmanos.com/amarillas/blogos/timberland-logo.jpg",
+        "membershiplevel": 1,
+        "information": "Industrial carpentry products"
+      },
+      {
+        "name": "Ceramica Guadalquivir",
+        "address": "Neighborhood Germán Busch final Quebrada Sagredo.",
+        "phonenumber": "(591) 78704180",
+        "websiteurl": "https://cg.com.bo/",
+        "image": "https://cg.com.bo/wp-content/uploads/2021/06/logo-ceramica-guadalquivir.svg",
+        "membershiplevel": 3,
+        "information": "Ceramic bricks"
+      },
+      {
+        "name": "Aranjuez",
+        "address": "Av. Angel Baldivieso #1976",
+        "phonenumber": "(591) 6642552",
+        "websiteurl": "https://www.vinosaranjuez.com/",
+        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logoaranjuez.webp",
+        "membershiplevel": 3,
+        "information": "Wine"
+      },
+      {
+        "name": "La Concepcion",
+        "address": "585 Colón Street (between La Madrid and 15 de abril streets)",
+        "phonenumber": "(591) 71863767",
+        "websiteurl": "https://www.bodegaslaconcepcion.com/",
+        "image": "https://guialogistica.info/media/cache/main_image_listing/custom/domain_1/image_files/1_photo_3060.webp",
+        "membershiplevel": 3,
+        "information": "Wine"
+      },
+      {
+        "name": "Curtiembre San Juan",
+        "address": "Cochabamba Street #1026",
+        "phonenumber": "(591) 71894731",
+        "websiteurl": "https://www.quiminet.com/",
+        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logosanjuan.webp",
+        "membershiplevel": 2,
+        "information": "leather industries"
+      },
+      {
+        "name": "Cemento el Puente",
+        "address": "Av. Hernán Siles Suazo",
+        "phonenumber": "(591) 6643680",
+        "websiteurl": "https://www.soboce.com/",
+        "image": "https://www.soboce.com/wp-content/uploads/2023/10/EL-PUENTE-IP30-WEB.webp",
+        "membershiplevel": 3,
+        "information": "cement"
+      }
+    ]
+  }

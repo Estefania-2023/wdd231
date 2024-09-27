@@ -3,30 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231: Web Frontend Development l - Estefania Ortiz Ramirez</title>
+    <title>Lima Chamber of Commerce</title>
     
     <meta name="author" content="Estefania Ortiz Ramirez" />
     <meta
       name="description"
-      content="WDD 231: Web Frontend Development l - Estefania Ortiz Ramirez - Peru"
+      content="Chamber of Commerce of the city of Lima, here you will find information on local businesses."
     >
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="images/favicon.ico">
    
-    <script src="scripts/home.js" defer></script>
-    <script src="scripts/courses.js" defer></script>
-    <meta property="og:title" content="WDD 231: Web Frontend Development l - Estefania Ortiz Ramirez">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <meta property="og:title" content="Lima Chamber of Commerce">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://es.wikipedia.org/wiki/Palacio_de_Gobierno_del_Per%C3%BA#/media/Archivo:2017_Lima_-_Palacio_de_Gobierno_del_Per%C3%BA.jpg">
-    <meta property="og:url" content="https://Estefania-2023.github.io/wdd231/chamber">
-
+    <meta property="og:image" content="https://Estefania-2023.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://Estefania-2023.github.io/wdd231/chamber/images/lima.webp">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@flickr">
+    <meta name="twitter:title" content="Lima Chamber of Commerce">
+    <meta name="twitter:description" content="Chamber of Commerce of the city of Lima, here you will find information on local businesses.">
+    <meta name="twitter:image" content="https://denomades.s3.us-west-2.amazonaws.com/blog/wp-content/uploads/2020/08/30162219/lima-peru-shutterstock_1047718252.jpg">
 </head>
 <body>
-    <header></header>
+    <header>
+      <div id="titledescription">
+        <img src="images/escudotarija2.webp" alt="logo tarija">
+        <p>
+        <span id="headtitle"><b>Tarija</b></span><br>
+        <span id="headown">Chamber of Commerce</span>
+        </p>
+        <button id="semicircle">◐</button>
+    </div>
+    <button id="menu"></button>
+    <nav id="animate">
+        <ul class="navigation">
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="directory.html" title="Chamber proyect" class="active">Directory</a></li>
+            <li><a href="join.html" title="Join us">Join</a></li>
+            <li><a href="discover.html" title="Discover More">Discover</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+      <h1>Tarija Chamber of Commerce</h1>
+      <div class="menu">
+          <button id="grid">𝍖</button>
+          <button id="list">&#9776;</button>
+      </div>
+      <article class="grid">
+          
+      </article>
+  </main>
+
+  <footer>
+      <div>
+          <p><b>Tarija Chamber of Commerce</b></p>
+          <p>25 de Mayo Street, San Martin neighborhood</p>
+          <p>chambertarija@gmail.com</p> 
+          <p>(591) 72983869</p>    
+      </div>
+      <hr>
+      <div id="icons" >
+          <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.webp" alt="youtube icon"></a>
+          <a href="https://x.com/" target="_blank"><img src="images/x.webp" alt="X icon"></a>
+          <a href="https://linkedin.com/" target="_blank"><img src="images/linkedin.webp" alt="linkedin icon"></a>
+      </div>
+      <hr>
+      <div>
+          <p>WDD231 Class Project</p>
+          <p>Pedro R. Zelada Soruco</p>
+          <p  id="year"></p>
+          <p id="last"></p>
+      </div>
+  </footer>
 </body>
 </html>
