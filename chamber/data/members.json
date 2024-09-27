@@ -71,24 +71,6 @@
         "image": "https://guialogistica.info/media/cache/main_image_listing/custom/domain_1/image_files/1_photo_3060.webp",
         "membershiplevel": 3,
         "information": "Wine"
-      },
-      {
-        "name": "Curtiembre San Juan",
-        "address": "Cochabamba Street #1026",
-        "phonenumber": "(591) 71894731",
-        "websiteurl": "https://www.quiminet.com/",
-        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logosanjuan.webp",
-        "membershiplevel": 2,
-        "information": "leather industries"
-      },
-      {
-        "name": "Cemento el Puente",
-        "address": "Av. Hernán Siles Suazo",
-        "phonenumber": "(591) 6643680",
-        "websiteurl": "https://www.soboce.com/",
-        "image": "https://www.soboce.com/wp-content/uploads/2023/10/EL-PUENTE-IP30-WEB.webp",
-        "membershiplevel": 3,
-        "information": "cement"
       }
     ]
   }
