@@ -11,66 +11,66 @@
       },
       {
         "name": "Agroberries",
-        "address": "Panamericana Norte km 523",
-        "phonenumber": "+ (51) 969 750634",
+        "address": "Panamericana Norte km 523, La Libertad",
+        "phonenumber": "+(51) 969 750634",
         "websiteurl": "https://www.agroberries.cl/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoagroberries.webp",
         "membership": "gold",
         "information": "Production, marketing, and distribution of berries"
       },
       {
-        "name": "Kohlberg",
-        "address": "Av. Jorge Paz Galarza, San Jorge 1 Zone ",
-        "phonenumber": "(591) 4-6636366",
-        "websiteurl": "https://www.kohlberg.com.bo/",
-        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logokohlberg.webp",
-        "membership": 3,
-        "information": "Wine"
+        "name": "CARVIMSA",
+        "address": "Antigua Panamericana Sur Km 19, Villa EL Salvador 15842",
+        "phonenumber": "(01) 2016600",
+        "websiteurl": "https://carvimsa.com/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logocarvimsa.webp",
+        "membership": "bronze",
+        "information": "Manufacture of cardboard, paper and derivatives packaging"
       },
       {
-        "name": "Curtiembre San Lorenzo",
-        "address": "Street Madrid between Colon and Suipacha",
-        "phonenumber": "(591) 72944301",
-        "websiteurl": "https://curtiembresanlorenzo.com/",
-        "image": "https://img.yumpu.com/58470295/1/500x640/catalogo-curtiembre-san-lorenzo-2017-print-web.jpg",
-        "membership": 1,
-        "information": "leather industries"
+        "name": "Donofrio",
+        "address": "Calle Luis Galvani 493 - Ate, Lima",
+        "phonenumber": "0800 10210",
+        "websiteurl": "https://www.donofrio.com.pe/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logodonofrio.webp",
+        "membership": "gold",
+        "information": "Company linked to the sale of ice cream, panettone, chocolates, and sweets"
       },
       {
-        "name": "Bolivian Timberland",
-        "address": "Av. Circunvalación #null, between Av. La Paz and Av. Tentahuazu",
-        "phonenumber": "(591) 71721242",
-        "websiteurl": "https://www.construex.com.bo/",
-        "image": "https://www.boliviaentusmanos.com/amarillas/blogos/timberland-logo.jpg",
-        "membership": 1,
-        "information": "Industrial carpentry products"
+        "name": "Global Services",
+        "address": "Jr. Los Mastuerzos N° 1438 Urb. Las Flores",
+        "phonenumber": "962 277 294",
+        "websiteurl": "https://globalservices.pe/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoglobalservices.webp",
+        "membership": "gold",
+        "information": "Offers staffing services, with a selection and training process to ensure that its collaborators are qualified"
       },
       {
-        "name": "Ceramica Guadalquivir",
-        "address": "Neighborhood Germán Busch final Quebrada Sagredo.",
-        "phonenumber": "(591) 78704180",
-        "websiteurl": "https://cg.com.bo/",
-        "image": "https://cg.com.bo/wp-content/uploads/2021/06/logo-ceramica-guadalquivir.svg",
-        "membership": 3,
-        "information": "Ceramic bricks"
+        "name": "Hortifrut",
+        "address": "Mercado Central, Callao 15112",
+        "phonenumber": "927 815 987",
+        "websiteurl": "https://www.hortifrut.com/es/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logohortifrut.webp",
+        "membership": "silver",
+        "information": "Company dedicated to the cultivation of fruit trees and nuts"
       },
       {
-        "name": "Aranjuez",
-        "address": "Av. Angel Baldivieso #1976",
-        "phonenumber": "(591) 6642552",
-        "websiteurl": "https://www.vinosaranjuez.com/",
-        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logoaranjuez.webp",
-        "membership": 3,
-        "information": "Wine"
+        "name": "LimaRank",
+        "address": "Felipe Pardo y Aliaga 165, Santiago de Surco 15056",
+        "phonenumber": "914 407 119",
+        "websiteurl": "https://limarank.online/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logolimarank.webp",
+        "membership": "bronze",
+        "information": "Digital Marketing Agency"
       },
       {
-        "name": "La Concepcion",
-        "address": "585 Colón Street (between La Madrid and 15 de abril streets)",
-        "phonenumber": "(591) 71863767",
-        "websiteurl": "https://www.bodegaslaconcepcion.com/",
-        "image": "https://guialogistica.info/media/cache/main_image_listing/custom/domain_1/image_files/1_photo_3060.webp",
-        "membership": 3,
-        "information": "Wine"
+        "name": "Pegafan",
+        "address": "Avenida Las Águilas 160, Lima 15457",
+        "phonenumber": "(01) 2070555",
+        "websiteurl": "https://pegafan.com/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logopegafan.webp",
+        "membership": "silver",
+        "information": "Brand of adhesive tapes: packaging, masking tape, and office tapes"
       }
     ]
   }
