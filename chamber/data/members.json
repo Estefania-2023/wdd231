@@ -1,22 +1,22 @@
 {
     "companies": [
       {
-        "name": "Pil Tarija",
-        "address": "Highway to Bermejo, Km 2, Airport Zone",
-        "phonenumber": "(591) 72965513",
-        "websiteurl": "https://piltarija.com/",
-        "image": "https://pedrozelada.github.io/wdd231/chamber/images/logopil.webp",
-        "membershiplevel": 2,
-        "information": "dairy industries"
+        "name": "ACP (Agrícola Cerro Prieto)",
+        "address": "Dean Valdivia 111  Int. 601 San Isidro",
+        "phonenumber": "(511) 619 3900",
+        "websiteurl": "https://www.acpagro.com/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoacp.webp",
+        "membership": "silver",
+        "information": "Export of agricultural products"
       },
       {
-        "name": "ALVITEM",
-        "address": "Av. La Paz # 1766, corner Santa Rosa",
-        "phonenumber": "(591) 72974104",
-        "websiteurl": "https://alvitem.wordpress.com/",
-        "image": "https://www.boliviaentusmanos.com/amarillas/blogos/alvitem-logo.jpg",
-        "membershiplevel": 1,
-        "information": "Work with aluminum and glass"
+        "name": "Agroberries",
+        "address": "Panamericana Norte km 523",
+        "phonenumber": "+ (51) 969 750634",
+        "websiteurl": "https://www.agroberries.cl/",
+        "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoagroberries.webp",
+        "membership": "gold",
+        "information": "Production, marketing, and distribution of berries"
       },
       {
         "name": "Kohlberg",
@@ -24,7 +24,7 @@
         "phonenumber": "(591) 4-6636366",
         "websiteurl": "https://www.kohlberg.com.bo/",
         "image": "https://pedrozelada.github.io/wdd231/chamber/images/logokohlberg.webp",
-        "membershiplevel": 3,
+        "membership": 3,
         "information": "Wine"
       },
       {
@@ -33,7 +33,7 @@
         "phonenumber": "(591) 72944301",
         "websiteurl": "https://curtiembresanlorenzo.com/",
         "image": "https://img.yumpu.com/58470295/1/500x640/catalogo-curtiembre-san-lorenzo-2017-print-web.jpg",
-        "membershiplevel": 1,
+        "membership": 1,
         "information": "leather industries"
       },
       {
@@ -42,7 +42,7 @@
         "phonenumber": "(591) 71721242",
         "websiteurl": "https://www.construex.com.bo/",
         "image": "https://www.boliviaentusmanos.com/amarillas/blogos/timberland-logo.jpg",
-        "membershiplevel": 1,
+        "membership": 1,
         "information": "Industrial carpentry products"
       },
       {
@@ -51,7 +51,7 @@
         "phonenumber": "(591) 78704180",
         "websiteurl": "https://cg.com.bo/",
         "image": "https://cg.com.bo/wp-content/uploads/2021/06/logo-ceramica-guadalquivir.svg",
-        "membershiplevel": 3,
+        "membership": 3,
         "information": "Ceramic bricks"
       },
       {
@@ -60,7 +60,7 @@
         "phonenumber": "(591) 6642552",
         "websiteurl": "https://www.vinosaranjuez.com/",
         "image": "https://pedrozelada.github.io/wdd231/chamber/images/logoaranjuez.webp",
-        "membershiplevel": 3,
+        "membership": 3,
         "information": "Wine"
       },
       {
@@ -69,7 +69,7 @@
         "phonenumber": "(591) 71863767",
         "websiteurl": "https://www.bodegaslaconcepcion.com/",
         "image": "https://guialogistica.info/media/cache/main_image_listing/custom/domain_1/image_files/1_photo_3060.webp",
-        "membershiplevel": 3,
+        "membership": 3,
         "information": "Wine"
       }
     ]
