@@ -4,7 +4,7 @@ let last = document.querySelector("#last");
 
 const today = new Date();
 
-year.innerHTML = `© <span class="highlight">${today.getFullYear()} Estefania Ortiz Ramirez   Lima-Perú  </span>`;
+year.innerHTML = `© <span class="highlight">${today.getFullYear()} Lima Chamber of Commerce  </span>`;
 
 let oLastModif = new Date(document.lastModified);
 
