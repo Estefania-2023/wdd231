@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #2b1491;
-    color: #fff;
+    background-color: #200527;
+    color: #ff7b00;
 }
 
 
@@ -18,14 +18,15 @@ header img {
 }
 
 #headtitle {
-    margin-left: px;
+    margin-left: 25px;
     font-size: 45px; 
 }
 
 h1 {
     font-family: "Ubuntu", sans-serif;;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
+    color: #200527;
 }
 
 #titledescription {
@@ -52,7 +53,7 @@ nav.open {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #ae00ff;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -60,18 +61,20 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
+    background-color: #ff7b00; 
+    color: #200527;
 }
 
 .active {
-    color: rgb(255, 144, 52);
+    color: rgb(231, 2, 52);
 }
 
 #menu {
 	font-size: 2rem;
 	border: 0;
 	background: none;
-	color: #fff;
+	color: #ff7b00;
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
@@ -88,14 +91,14 @@ nav a:hover {
 footer {
     margin-top: 20px;
     padding: 15px;
-    background-color: #2b1491;
-    color: #fff;
+    background-color: #200527;
+    color: #ff7b00;
 }
 
 footer p {
     margin: 5px;
     font-size: 14px;
-    color: #fff;
+    color: #ff7b00;
 }
 
 #icons{
@@ -140,10 +143,10 @@ footer p {
 
 .grid section {
     padding: 0.5rem;
-    width: 350px;
+    width: 300px;
     height: 200px;
 	text-align: center; 
-    background-color: #ffffff;
+    background-color: #ff7b00;
     border: 1px solid #ff5555;
 	box-shadow: 0 0 5px #333;
 }
@@ -174,7 +177,7 @@ footer p {
 }
 
 .list section:nth-child(even) {
-	background-color: rgb(182, 208, 183);
+	background-color: rgb(250, 179, 87);
 }
 
 section p {
@@ -185,12 +188,13 @@ section p {
 section a {
 	font-family: Arial, sans-serif;
 	font-size: 0.85rem;
-	color: navy;
+	color: rgb(63, 0, 100);
 }
 
 .grid img {
-	height: 100px;
+	height: 90px;
 	width: auto; 
+    filter: drop-shadow(2px 2px 10px rgb(255, 253, 107));
 }
 
 
