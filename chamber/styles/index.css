@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+/* footer and header*/
+header {
+    background-color: #0c521b;
+    color: #fff;
+}
+
+
+header img {
+    margin-right: 10px;
+    width: 50px;
+}
+
+#headtitle {
+    margin-left: 25px;;
+    font-size: 45px; 
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;;
+    text-align: center;
+    font-weight: normal;
+}
+
+#titledescription {
+    margin-left: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav  {
+    display: grid;
+    grid-template-rows: 0fr; 
+    transition: grid-template-rows 0.5s ease-out; 
+}
+
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav.open {
+	grid-template-rows: 1fr;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+.active {
+    color: rgb(251, 238, 101);
+}
+
+#menu {
+	font-size: 2rem;
+	border: 0;
+	background: none;
+	color: #fff;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #0c521b;
+    color: #fff;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+#icons{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#icons img{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#semicircle {
+    font-size: 3rem;
+	border: 0;
+	background: none;
+	color: #fff;
+	position: absolute;
+	top: 1.5rem;
+	right: 3rem;
+}
+
+/* main */
+#container-hero{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#container-hero a{
+    color: #fff;
+}
+
+#hero {
+    position: relative;
+    display: inline-block;
+}
+  
+.background-image img {
+    width: 100%;
+    height: auto;
+}
+  
+#join {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 20px 40px;
+    background-color: #0c521b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#join:hover {
+    background-color: #54e344;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: #0c521b;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;;
+    text-align: center;
+    font-weight: normal;
+}
+
+#weather-section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#weather-icon{
+    margin: auto;
+}
+
+section {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border-color: #29537f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+#companiesd {
+    margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 15px;
+    place-items: center;
+	align-items: center;
+    max-width: 1200px;
+}
+
+#companies-section{
+    display: grid;
+    grid-template-columns:30% 70%;
+}
+
+  @media screen and (min-width: 640px) {
+
+    header, nav, main, footer {
+        margin:auto;
+    }
+
+    nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 1 100%;
+	}
+    #menu {
+		display: none; 
+	}
+
+    header, footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #titledescription {
+        margin-left: 150px;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
+        margin-right: 150px;
+    }
+
+    footer div{
+        margin: auto;
+    }
+
+    .events {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 25% 22%;
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+    }
+    
+}
