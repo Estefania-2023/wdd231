@@ -6,7 +6,7 @@
         "phonenumber": "(511) 619 3900",
         "websiteurl": "https://www.acpagro.com/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoacp.webp",
-        "membership": "silver",
+        "membership": 2,
         "information": "Export of agricultural products"
       },
       {
@@ -15,7 +15,7 @@
         "phonenumber": "+(51) 969 750634",
         "websiteurl": "https://www.agroberries.cl/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoagroberries.webp",
-        "membership": "gold",
+        "membership": 3,
         "information": "Production, marketing, and distribution of berries"
       },
       {
@@ -24,7 +24,7 @@
         "phonenumber": "(01) 2016600",
         "websiteurl": "https://carvimsa.com/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logocarvimsa.webp",
-        "membership": "bronze",
+        "membership": 1,
         "information": "Manufacture of cardboard, paper and derivatives packaging"
       },
       {
@@ -33,7 +33,7 @@
         "phonenumber": "0800 10210",
         "websiteurl": "https://www.donofrio.com.pe/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logodonofrio.webp",
-        "membership": "gold",
+        "membership": 3,
         "information": "Company linked to the sale of ice cream, panettone, chocolates, and sweets"
       },
       {
@@ -42,7 +42,7 @@
         "phonenumber": "962 277 294",
         "websiteurl": "https://globalservices.pe/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logoglobalservices.webp",
-        "membership": "gold",
+        "membership": 3,
         "information": "Offers staffing services, with a selection and training process to ensure that its collaborators are qualified"
       },
       {
@@ -51,7 +51,7 @@
         "phonenumber": "927 815 987",
         "websiteurl": "https://www.hortifrut.com/es/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logohortifrut.webp",
-        "membership": "silver",
+        "membership": 2,
         "information": "Company dedicated to the cultivation of fruit trees and nuts"
       },
       {
@@ -60,7 +60,7 @@
         "phonenumber": "914 407 119",
         "websiteurl": "https://limarank.online/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logolimarank.webp",
-        "membership": "bronze",
+        "membership": 1,
         "information": "Digital Marketing Agency"
       },
       {
@@ -69,7 +69,7 @@
         "phonenumber": "(01) 2070555",
         "websiteurl": "https://pegafan.com/",
         "image": "https://Estefania-2023.github.io/wdd231/chamber/images/logopegafan.webp",
-        "membership": "silver",
+        "membership": 2,
         "information": "Brand of adhesive tapes: packaging, masking tape, and office tapes"
       }
     ]
