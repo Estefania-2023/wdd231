@@ -1,18 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 
 }
 /* footer and header*/
 header {
-    background-color: #0c521b;
-    color: #fff;
+    background-color: #ff7b00;
+    color: #200527;
 }
 
 
 header img {
     margin-right: 10px;
-    width: 50px;
+    filter: drop-shadow(5px 5px 5px brown);
 }
 
 #headtitle {
@@ -27,7 +27,7 @@ h1 {
 }
 
 #titledescription {
-    margin-left: -80px;
+    margin-right: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,10 +50,11 @@ nav.open {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #5e0075;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
+    font-weight: bold;
     
 }
 
@@ -62,17 +63,18 @@ nav a:hover {
 }
 
 .active {
-    color: rgb(251, 238, 101);
+    color: rgb(177, 0, 0);
 }
 
 #menu {
 	font-size: 2rem;
 	border: 0;
 	background: none;
-	color: #fff;
+	color: #7c0000;
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
+    font-weight: 700;
 }
 
 #menu::before {
@@ -86,14 +88,14 @@ nav a:hover {
 footer {
     margin-top: 20px;
     padding: 15px;
-    background-color: #0c521b;
-    color: #fff;
+    background-color: #ff7b00;
+    color: #5e0075;
 }
 
 footer p {
     margin: 5px;
     font-size: 14px;
-    color: #fff;
+    color: #5e0075;
 }
 
 #icons{
@@ -110,16 +112,6 @@ footer p {
     height: 40px;
 }
 
-#semicircle {
-    font-size: 3rem;
-	border: 0;
-	background: none;
-	color: #fff;
-	position: absolute;
-	top: 1.5rem;
-	right: 3rem;
-}
-
 /* main */
 #container-hero{
     margin-top: 20px;
@@ -127,7 +119,7 @@ footer p {
 }
 
 #container-hero a{
-    color: #fff;
+    color: #5e0075;
 }
 
 #hero {
@@ -142,25 +134,26 @@ footer p {
   
 #join {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 1rem;
+    right: 1rem;
     padding: 20px 40px;
-    background-color: #0c521b;
-    color: white;
-    border: none;
+    background-color: #ff7b00;
+    color: #5e0075;
+    border:none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: larger;
 }
   
 #join:hover {
-    background-color: #54e344;
+    background-color: #ffee00;
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 10px;
-    background-color: #0c521b;
-    color: #fff;
+    background-color: #ff7b00;
+    color: #5e0075;
     font-family: "Ubuntu", sans-serif;;
     text-align: center;
     font-weight: normal;
@@ -178,11 +171,11 @@ h2 {
 section {
     background-color: #f9f9f9;
     border-radius: 10px;
-    border-color: #29537f;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #50111e;
+    box-shadow: 0px 4px 8px rgba(65, 0, 0, 0.712);
     padding: 10px;
     margin-bottom: 20px;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-name: slidein;
   }
 

@@ -10,7 +10,7 @@ const suns = document.querySelector('#sunset');
 const icon = document.querySelector('#weather-icon');
 const caption = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-21.53&lon=-64.73&units=metric&appid=7a754ba18991783a33af01dad98985b9';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-12.00&lon=-77.09&units=metric&appid=337ef9758d978035a649bd1d6694ac58';
 
 async function apiFetch(url) {
     try {
@@ -63,7 +63,7 @@ const tod = document.querySelector('#todayc');
 const tom = document.querySelector('#tomorrowc');
 const atom = document.querySelector('#atomorrowc');
 
-const url2 = 'https://api.openweathermap.org/data/2.5/forecast?lat=-21.53&lon=-64.73&units=metric&appid=7a754ba18991783a33af01dad98985b9';
+const url2 = 'https://api.openweathermap.org/data/2.5/forecast?lat=-12.00&lon=-77.09&units=metric&appid=337ef9758d978035a649bd1d6694ac58';
 
 //get days
 let todaydate = new Date();
