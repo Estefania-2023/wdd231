@@ -13,6 +13,8 @@ header {
 header img {
     margin-right: 10px;
     filter: drop-shadow(5px 5px 5px brown);
+    width: 50px; 
+    height: 60px;
 }
 
 #headtitle {
@@ -132,7 +134,7 @@ footer p {
     height: auto;
 }
   
-#join {
+.join {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
@@ -145,7 +147,7 @@ footer p {
     font-size: larger;
 }
   
-#join:hover {
+.join:hover {
     background-color: #ffee00;
 }
 
@@ -175,21 +177,7 @@ section {
     box-shadow: 0px 4px 8px rgba(65, 0, 0, 0.712);
     padding: 10px;
     margin-bottom: 20px;
-    animation-duration: 1.5s;
-    animation-name: slidein;
   }
-
-@keyframes slidein {
-  from {
-    translate: 150vw 0;
-    scale: 200% 1;
-  }
-
-  to {
-    translate: 0 0;
-    scale: 100% 1;
-  }
-}
 
 #companiesd {
     margin: auto;

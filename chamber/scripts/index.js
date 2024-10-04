@@ -150,8 +150,8 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('src', companie.image);
       portrait.setAttribute('alt', companie.name);
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '100');
-      portrait.setAttribute('height', '100');
+      portrait.setAttribute('width', '90');
+      portrait.setAttribute('height', '90');
 
       name.setAttribute('class', "hidep");
       card.appendChild(name);
