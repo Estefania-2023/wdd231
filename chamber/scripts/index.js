@@ -97,73 +97,78 @@ function displayResults2(data) {
 }
 apiFetch2(url2);
 
-//display gold or silver members
-const companiesd = document.querySelector('#companiesd');
-// generate random number
-const generateRandomNumber = () => Math.floor(Math.random() * 10);
-let numbers = [];
-let count = 0;
-// get three members
-let memberstodisplay = [];
-const url3 = 'https://Estefania-2023.github.io/wdd231/chamber/data/members.json';
 
-const getCompaniesData = async (url) => {
-  try {
-  const response = await fetch(url);
-  const data = await response.json();
+
+const requestURL3 = 'https://Estefania-2023.github.io/wdd231/chamber/data/members.json';
+
+fetch(requestURL3)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    const businesses = jsonObject['companies'];
+    chooseHighlights(businesses);
+  });
+
+
+  function chooseHighlights(businesses){
+
+    const filteredMembership = businesses.filter(function (business) {
+        return business.membershiplevel == 3 ||
+              business.membershiplevel == 2;
+    });
+
+    const shuffledMembership = filteredMembership.sort(() => 0.5 - Math.random());
+
+    displayHighlight(shuffledMembership[0], "#spotlight1");
+    displayHighlight(shuffledMembership[1], "#spotlight2");
+    displayHighlight(shuffledMembership[2], "#spotlight3");
+  }
+
+  function displayHighlight(business, elementID) {
+
+    let pName = document.createElement('h3');
+    let logoImg = document.createElement('img');
+    let pSlogan = document.createElement('p');
+    let hr = document.createElement('hr');
+    let pSpotinfo = document.createElement('p');
+    let a = document.createElement('a');
+
+    pName.innerHTML = `${business.name}`;
+    pName.setAttribute('class', 'large');
+
+    logoImg.setAttribute('src', business.image);
+    logoImg.setAttribute('class', 'spotlightImg');  
+    logoImg.setAttribute('alt', `Logo image for ${business.name}`);
+    logoImg.setAttribute('loading', 'lazy');
   
 
-  while(count <= 2) {
-    let randomIndex = generateRandomNumber();
-    let memberNumber = data.companies[randomIndex];
-    let memberNumbermembersip = memberNumber.membershiplevel;
-      if ( (memberNumbermembersip == 2 || memberNumbermembersip == 3) && !numbers.includes(randomIndex) ){
-        numbers.push(randomIndex);
-        memberstodisplay.push(memberNumber);
-        count ++;
-      }
-    }
-    displayCompanies(memberstodisplay);
-  } catch (error) {
-    console.log(error);
+
+    pSlogan.textContent = `"${business.information}"`;
+    pSlogan.setAttribute('class', 'small bold italic');   
+ 
+
+    hr.style.margin = "2px";
+    pSpotinfo.innerHTML += "Number: " + business.phonenumber + "  |   ";
+    pSpotinfo.innerHTML += " Membership level: " + business.membershiplevel + "|    Website:";
+    pSpotinfo.classList.add('spotinfo');
+
+    a.textContent = "website";
+    a.setAttribute('href', business.websiteurl);
+  
+    pSpotinfo.appendChild(a);
+
+    const spotlightContainer = document.querySelector(elementID)
+
+    spotlightContainer.removeChild(spotlightContainer.firstElementChild);
+  
+    spotlightContainer.appendChild(logoImg);
+    spotlightContainer.appendChild(pName);
+    spotlightContainer.appendChild(pSlogan);
+    spotlightContainer.appendChild(hr);
+    spotlightContainer.appendChild(pSpotinfo);
+
+
+
   }
-}
-const displayCompanies = (companies) => {
-  companies.forEach(companie => {
-      let card = document.createElement('section');
-      let name = document.createElement('h2');
-      let companiesSection = document.createElement('div');
-      let companiesInformation = document.createElement('div');
-      let portrait = document.createElement('img');
-      let telf = document.createElement('p');
-      let address = document.createElement('p');
-      let website = document.createElement('p');
-      let level = document.createElement('p');
-      
-      name.innerHTML = `${companie.name}`;
-      address.innerHTML = `<b>Addres: </b>${companie.address}`;
-      telf.innerHTML = `<b>Phone</b>: ${companie.phonenumber}`;
-      website.innerHTML = `<b>URL: </b><a href="${companie.websiteurl}" target="_blank" title="${companie.name}">${companie.websiteurl}</a>`;
-      level.innerHTML = `<b>Membership level :</b> ${companie.membershiplevel}`
-
-      companiesSection.setAttribute('id', 'companies-section')
-      portrait.setAttribute('src', companie.image);
-      portrait.setAttribute('alt', companie.name);
-      portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '90');
-      portrait.setAttribute('height', '90');
-
-      name.setAttribute('class', "hidep");
-      card.appendChild(name);
-      card.appendChild(companiesSection);
-      companiesSection.appendChild(portrait);
-      companiesSection.appendChild(companiesInformation);
-      companiesInformation.appendChild(telf);
-      companiesInformation.appendChild(address);
-      companiesInformation.appendChild(website);
-      companiesInformation.appendChild(level);
-      companiesd.appendChild(card);
-  });
-}
-getCompaniesData(url3);
-
+ 
