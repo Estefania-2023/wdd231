@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima Chamber of Commerce</title>
+    
+    <meta name="author" content="Estefania Ortiz Ramirez">
+    <meta
+      name="description"
+      content="Chamber of Commerce of the city of Lima, here you will find information on local businesses."
+    >
+    
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="icon" href="images/favicon.ico">
+   
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <meta property="og:title" content="Lima Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://Estefania-2023.github.io/wdd231/chamber/images/escudolima.webp">
+    <meta property="og:url" content="https://Estefania-2023.github.io/wdd231/chamber/join.html">
+</head>
+<body>
+    <header>
+        <div id="titledescription">
+          <img src="images/escudolima.webp" alt="escudo Lima">
+          <p>
+          <span id="headtitle"><b>Lima</b></span><br>
+          <span id="headown">Chamber of Commerce</span>
+          </p>
+      </div>
+      <button id="menu" name="menu"></button>
+        <nav id="animate">
+            <ul class="navigation">
+                <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="directory.html" title="Chamber proyect" class="active">Directory</a></li>
+                <li><a href="join.html" title="Join us">Join</a></li>
+                <li><a href="discover.html" title="Discover More">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Tarija Chamber of Commerce Join Us</h1>
+        <form method="get" action="thankyou.html" class="form1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label for="fname">First Name*<input type="text" name="fname" id="fname" autocomplete="given-name" required></label>
+                <label for="lname">Last Name*<input type="text" name="lname" id="lname" autocomplete="family-name" required></label>
+                <label for="organizationTitle">Organizational Title<input type="text" id="organizationTitle" name="organizationTitle" autocomplete="organization-title" pattern="[a-zA-Z\- ]{7,}" title="Only accept alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+                <label for="email">Email Address*<input type="email" name="email" id="email" autocomplete="email" placeholder="someone@gmail.com"  required></label>
+                <label>Mobile Phone Number<input type="tel" id="phone" name="phone" autocomplete="tel" required ></label>
+                <label for="organization">Business/Organization's Name<input type="text" id="organization" name="organization" autocomplete="organization" required></label>
+                <div>Membership Level, Select one:</div>
+                <div id="mlevel">  
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="np">NP</label><span class="learn-more" id="openButton1">Learn More</span>
+                    </div>
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="bronze">Bronze Membership</label><span class="learn-more" id="openButton2">Learn More</span>
+                    </div>
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="silver">Silver Membership</label><span class="learn-more" id="openButton3">Learn More</span>
+                    </div>
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="gold">Gold Membership</label><span class="learn-more" id="openButton4">Learn More</span>
+                    </div>
+                    <dialog id="mydialog">
+                        <h2></h2>
+                        <p></p>
+                        <span id="closeButton">❌</span>
+                    </dialog>
+                </div>
+               
+                <label for="review">Business/Organization's description</label>
+                <textarea id="review" name="review"></textarea>
+                <input type="hidden" name="timestamp" id="timestamp" value="">
+
+            </fieldset>
+    
+            <input type="submit" value="Join Us">
+    
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <p><b>Lima Chamber of Commerce</b></p>
+            <p>25 de Mayo Street, San Martin neighborhood</p>
+            <p>chamberLima@gmail.com</p> 
+            <p>(01) 7252245</p>    
+        </div>
+        <div id="icons" >
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.webp" alt="youtube icon"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/x.webp" alt="X icon"></a>
+            <a href="https://linkedin.com/" target="_blank"><img src="images/linkedin.webp" alt="linkedin icon"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Estefania Ortiz Ramirez</p>
+            <p  id="year"></p>
+            <p id="last"></p>
+        </div>
+    </footer>   
+</body>
+</html>
