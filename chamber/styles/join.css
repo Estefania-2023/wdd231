@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
 
 }
 /* footer and header*/
@@ -182,7 +181,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 .form1 input[type="submit"]{
     border:none;
     background-color: rgb(128, 62, 0);
-    color:#fff;
+    color:#eeff00;
     border-radius: 6px;
     padding: 1rem;
     width: 100%;
