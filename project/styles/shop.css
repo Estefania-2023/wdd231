@@ -47,7 +47,7 @@ h2{
 main p {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #titledescription {
