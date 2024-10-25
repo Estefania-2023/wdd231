@@ -292,8 +292,8 @@ aside{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto auto;
     text-align: center;
-    height: 100px auto;
-color: var(--accent1-color);
+    height: auto;
+    color: var(--accent1-color);
 }
 
 .spotlight-grid img {
