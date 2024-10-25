@@ -1,0 +1,76 @@
+{
+    "activities": [
+      {
+        "name": "Giveaways",
+        "address": "Carretera Tambogrande Las Lomas km 1080.50 - Cas. San Pablo s/n, 20200",
+        "phonenumber": "962 277 29",
+        "websiteurl": "https://www.copefrut.com/",
+        "mem_lvl": "Silver",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/sorteoimage.webp",
+        "information": "There always are free giveaways in any of our events."
+      },
+      {
+        "name": "Conferences",
+        "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+        "phonenumber": "969 750 634",
+        "websiteurl": "https://www.copefrut.com/",
+        "mem_lvl": "Bronze",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/conference.webp",
+        "information": "There will be conferences related to environmental care."
+      },
+      {
+        "name": "Entrepreneurship courses",
+        "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+        "phonenumber": "969 750 634",
+        "websiteurl": "https://www.copefrut.com/",
+        "mem_lvl": "Gold",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/businessimage.webp",
+        "information": "You can learn Entrepreneurship courses and the great strategies."
+      },
+      {
+        "name": "Bussiness Meeting",
+        "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+        "phonenumber": "969 750 634",
+        "websiteurl": "https://www.copefrut.com/",
+        "mem_lvl": "Silver",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/bussinessmeetingimage.webp",
+        "information": "Business meetings with economic and agricultural purposes"
+      },
+      {
+        "name": "Agronomy Courses",
+        "address": "Carretera Tambogrande Las Lomas km 1080.50 - Cas. San Pablo s/n, 20200",
+        "phonenumber": "962 277 294",
+        "websiteurl": "https://www.copefrut.com/",
+        "mem_lvl": "Bronze",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/agronomiccourse.webp",
+        "information": "You can learn basic courses about Agronomy"
+      },
+      {
+        "name": "AgriExpo (Technology in agriculture)",
+        "address": "Campo Ferial UNALM, La Molina 15024",
+        "phonenumber": "902 221 785",
+        "websiteurl": "https://agriexpoperu.com.pe/",
+        "mem_lvl": "Gold",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/agriexpologo.webp",
+        "information": "This member company works with technology in agriculture."
+      },
+      {
+        "name": "Agrofest (Fair trade)",
+        "address": "Felipe Pardo y Aliaga 165, Santiago de Surco 15056",
+        "phonenumber": "914 407 119",
+        "websiteurl": "https://agrofest.pe/",
+        "mem_lvl": "Gold",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/agrofestlogo.webp",
+        "information": "This member company works with agricultural production and fair trade."
+      },
+      {
+        "name": "Redagrícola",
+        "address": "Avenida Las Águilas 160, Lima 15457",
+        "phonenumber": "(01) 2070555",
+        "websiteurl": "https://conferencias.redagricola.com/",
+        "mem_lvl": "Silver",
+        "image": "https://Estefania-2023.github.io/wdd231/project/images/confredagricolalogo.webp",
+        "information": "This member company offers agricultural conferences."
+      }
+    ]
+  }

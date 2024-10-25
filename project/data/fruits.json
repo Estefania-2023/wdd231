@@ -1,0 +1,49 @@
+{
+    "fruits": [
+        {
+            "service": "Pineapple",
+            "image": "pineapple.webp",
+            "cost": "$5"
+        },
+        {
+            "service": "Mango",
+            "image": "mango.webp",
+            "cost": "$6"
+        },
+        {
+            "service": "Banana",
+            "image": "banana.webp",
+            "cost": "$2"
+        },
+        {
+            "service": "Kiwi",
+            "image": "kiwi.webp",
+            "cost": "$8"
+        },
+        {
+            "service": "Orange",
+            "image": "orange.webp",
+            "cost": "$4"
+        },
+        {
+            "service": "Apple",
+            "image": "apple.webp",
+            "cost": "$4"
+        },
+        {
+            "service": "Grape",
+            "image": "grape.webp",
+            "cost": "$6"
+        },
+        {
+            "service": "Strawberry",
+            "image": "strawberry.webp",
+            "cost": "$6"
+        },
+        {
+            "service": "Watermelon",
+            "image": "watermelon.webp",
+            "cost": "$1.5"
+        }
+    ]
+}
