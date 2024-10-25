@@ -164,13 +164,13 @@ font-weight: bold;
     padding: 0.5rem;
     width: 300px;
     height: 180px;
-    margin: 5px;
+    margin: 15px;
+    color: var(--accent1-color);
 	text-align: center; 
     background-color: #ffffff;
-
     border: 1px solid var(--accent1-color);
+    box-shadow: 2px 2px 15px var(--primary-color);
 }
-
 
 .grid .hidep {
     display: none;
@@ -190,6 +190,7 @@ font-weight: bold;
 
 .list section {
     padding: 10px;
+    color: var(--accent1-color);
 }
 
 .list section img {
@@ -197,7 +198,8 @@ font-weight: bold;
 }
 
 .list section:nth-child(even) {
-	background-color: rgb(147, 250, 87);
+	background-color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 section p {

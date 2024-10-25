@@ -151,6 +151,7 @@ h1{font-size: 35px;}
     border: 2px solid var(--accent1-color);
     margin: 30px;
     border-radius: 12px;
+    box-shadow: 2px 2px 15px var(--primary-color);
 }
 
 dialog {
